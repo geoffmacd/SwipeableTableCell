@@ -19,16 +19,14 @@
 
 @implementation TableViewCell
 
-- (void)awakeFromNib {
+- (void)awakeFromNib
+{
     [super awakeFromNib];
     // Initialization code
     self.scrollView.delegate = self;
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapped:)];
     [self.boxView addGestureRecognizer:tap];
-    
-    
-//    [self.scrollView.panGestureRecognizer requireGestureRecognizerToFail:[self.gestureRecognizers firstObject]];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -77,8 +75,8 @@
     
 }
 
-- (IBAction)tapped:(id)sender {
-    
+- (void)tapped:(id)sender
+{
     [self setSelected:!self.selected];
 }
 @end

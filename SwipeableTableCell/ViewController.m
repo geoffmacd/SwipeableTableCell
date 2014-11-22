@@ -20,31 +20,18 @@
     [super viewDidLoad];
     
     UINib * cell = [UINib nibWithNibName:@"TableViewCell" bundle:nil];
-    
-    [self.tableView registerNib:cell forCellReuseIdentifier:@"Geoff"];
-    self.tableView.rowHeight = 44.0f;
+    [self.tableView registerNib:cell forCellReuseIdentifier:@"Cell"];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Geoff" forIndexPath:indexPath];
-//    UITableViewCell *c = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"test"];
-//    c.textLabel.text = @"geoff";
-//    
-//    return c;
+    TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     return cell;
-    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 10;
-}
-
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    
+    return 20;
 }
 
 @end
