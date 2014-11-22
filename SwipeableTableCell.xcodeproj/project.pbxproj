@@ -14,6 +14,8 @@
 		6727F87E1A211DCC00016059 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6727F87D1A211DCC00016059 /* Images.xcassets */; };
 		6727F8811A211DCC00016059 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6727F87F1A211DCC00016059 /* LaunchScreen.xib */; };
 		6727F88D1A211DCC00016059 /* SwipeableTableCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6727F88C1A211DCC00016059 /* SwipeableTableCellTests.m */; };
+		6727F8991A211E2500016059 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6727F8971A211E2500016059 /* TableViewCell.m */; };
+		6727F89A1A211E2500016059 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6727F8981A211E2500016059 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		6727F8861A211DCC00016059 /* SwipeableTableCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeableTableCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6727F88B1A211DCC00016059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6727F88C1A211DCC00016059 /* SwipeableTableCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeableTableCellTests.m; sourceTree = "<group>"; };
+		6727F8961A211E2500016059 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		6727F8971A211E2500016059 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		6727F8981A211E2500016059 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,9 @@
 				6727F8771A211DCC00016059 /* ViewController.h */,
 				6727F8781A211DCC00016059 /* ViewController.m */,
 				6727F87A1A211DCC00016059 /* Main.storyboard */,
+				6727F8961A211E2500016059 /* TableViewCell.h */,
+				6727F8971A211E2500016059 /* TableViewCell.m */,
+				6727F8981A211E2500016059 /* TableViewCell.xib */,
 				6727F87D1A211DCC00016059 /* Images.xcassets */,
 				6727F87F1A211DCC00016059 /* LaunchScreen.xib */,
 				6727F8701A211DCC00016059 /* Supporting Files */,
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6727F87C1A211DCC00016059 /* Main.storyboard in Resources */,
+				6727F89A1A211E2500016059 /* TableViewCell.xib in Resources */,
 				6727F8811A211DCC00016059 /* LaunchScreen.xib in Resources */,
 				6727F87E1A211DCC00016059 /* Images.xcassets in Resources */,
 			);
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6727F8791A211DCC00016059 /* ViewController.m in Sources */,
+				6727F8991A211E2500016059 /* TableViewCell.m in Sources */,
 				6727F8761A211DCC00016059 /* AppDelegate.m in Sources */,
 				6727F8731A211DCC00016059 /* main.m in Sources */,
 			);

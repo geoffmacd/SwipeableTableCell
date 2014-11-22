@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewCell.h
 //  SwipeableTableCell
 //
 //  Created by Geoff MacDonald on 2014-11-22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface TableViewCell : UITableViewCell
 
 @end
-
